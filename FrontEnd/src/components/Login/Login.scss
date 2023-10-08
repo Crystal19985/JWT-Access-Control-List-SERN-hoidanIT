@@ -1,0 +1,45 @@
+.border {
+    border: 1px;
+    border-color: gray;
+}
+
+.login-container {
+    background-color: #f0f2f5;
+
+    .container {
+        .left-content {
+            margin-top: 50px;
+
+            .brand {
+                font-size: 2rem;
+                font-weight: 500;
+                color: #0866ff;
+            }
+
+            .content {
+                font-size: 1.2rem;
+            }
+        }
+
+        .right-content {
+            background-color: #fff;
+            z-index: 50;
+            border-radius: 8px;
+
+            .brand {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #0866ff;
+                text-align: center;
+            }
+
+            a {
+                text-decoration: none;
+                &:hover {
+                    color: #0d6efd;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
