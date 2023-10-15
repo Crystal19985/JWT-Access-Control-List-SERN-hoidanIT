@@ -21,8 +21,8 @@ export default function App() {
                     <Route path="*" element={<NoMatch />} />
                 </Route>
 
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
+                <Route path={path.login} element={<Login />} />
+                <Route path={path.register} element={<Register />} />
                 <Route path="*" element={<NoMatch />} />
             </Routes>
         </div>

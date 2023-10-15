@@ -13,15 +13,35 @@ const Register = () => {
                     </div>
                     <div className="right-content col-12 col-sm-6 border d-flex flex-column gap-4 p-2">
                         <div className="brand d-block d-sm-none">Register</div>
-                        <input className="form-control p-2" placeholder="Email address or phone number" />
-                        <input className="form-control p-2" placeholder="Password" />
+                        <div className='form-group'>
+                            <label className='form-label'>Email : </label>
+                            <input className="form-control p-2" placeholder="Email address" />
+                        </div>
+
+                       
+
+                        <div className='form-group'>
+                            <label className='form-label'>Phone number : </label>
+                            <input className="form-control p-2" placeholder="phone number" />
+                        </div>
+
+                        <div className='form-group'>
+                            <label className='form-label'>Password : </label>
+                            <input className="form-control p-2" placeholder="Password" />
+                        </div>
+
+                        <div className='form-group'>
+                            <label className='form-label'>Re-enter password : </label>
+                            <input className="form-control p-2" placeholder="Re-enter password" />
+                        </div>
+                        
                         <button className="btn btn-primary">Register</button>
                         <span className="text-center">
                             <a href="/forgot-password">Forgotten Password</a>
                         </span>
                         <hr />
                         <div className="text-center">
-                            <button className="btn btn-success">Create New Account</button>
+                            <button className="btn btn-success">Back to Login</button>
                         </div>
                     </div>
                 </div>
